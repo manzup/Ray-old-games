@@ -1,9 +1,9 @@
-RAY VANHAT PELIKONEIDEN PELIT
+RAY – vanhat pelikoneiden pelit
 
-GitHub Pages -rakenne:
-index.html = päävalikko
-tuplapotti/ = Tuplapotti
-tahti/ = Tähti
+Tähän pakettiin on lisätty aiemmissa testeissä toimiviksi todetut pelit.
 
-Lataa koko paketin sisältö raygame-repositorion juureen.
-Älä laita kansiota RAY_Vanhat_pelikoneiden_pelit itse repositoryn sisään.
+Mukana: Peli 1, 3, 4, 5, 6, 7, 9, 10, 13, 14, 16, 17, 18, 19, 20, 21 ja 23.
+
+Ei vielä mukana: Peli 2, 8, 11, 12, 15 ja 22, koska ne eivät toimineet aiemmissa testeissä.
+
+Sivusto käyttää Ruffle-emulaattoria Flash-pelien suorittamiseen.
