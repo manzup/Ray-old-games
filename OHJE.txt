@@ -1,9 +1,3 @@
-RAY – vanhat pelikoneiden pelit
-
-Tähän pakettiin on lisätty aiemmissa testeissä toimiviksi todetut pelit.
-
-Mukana: Peli 1, 3, 4, 5, 6, 7, 9, 10, 13, 14, 16, 17, 18, 19, 20, 21 ja 23.
-
-Ei vielä mukana: Peli 2, 8, 11, 12, 15 ja 22, koska ne eivät toimineet aiemmissa testeissä.
-
-Sivusto käyttää Ruffle-emulaattoria Flash-pelien suorittamiseen.
+RAY vanhat pelikoneiden pelit
+Päävalikko: index.html
+Pelit ovat samassa juuressa SWF-tiedostojen kanssa. Älä lataa kansiorakennetta uudelleen; kaikki tiedostot voidaan ladata suoraan repositoryn main-haaraan.

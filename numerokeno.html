@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="fi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="theme-color" content="#000000">
+<title>Numerokeno</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:#000;color:#fff;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+body{display:flex;flex-direction:column;overflow:hidden}
+header{position:relative;padding:10px 16px;text-align:center;background:#1b1b1b;flex:0 0 auto}
+h1{font-size:18px;margin:0 0 3px}p{font-size:12px;margin:0;color:#aaa}
+#game{position:relative;flex:1;min-height:0;display:flex;align-items:center;justify-content:center;background:#000}
+#loading{position:absolute;z-index:5;color:#bbb}#error{display:none;position:absolute;z-index:10;padding:18px;background:#292929;border-radius:10px}
+#player{width:min(100%,900px);height:min(100%,700px);background:#000}
+object{width:100%;height:100%;display:block;background:#000}
+.back{position:absolute;left:12px;top:9px;color:#aaa;text-decoration:none;font-size:12px;z-index:20}
+</style>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={backgroundColor:"#000000"};</script>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script></head>
+<body><header><a class="back" href="./">← Pelit</a><h1>Numerokeno</h1><p>Vanha RAY-peli</p></header>
+<main id="game"><div id="loading">Ladataan…</div><div id="error"></div>
+<div id="player"><object type="application/x-shockwave-flash" data="numerokeno.swf" width="100%" height="100%">
+<param name="movie" value="numerokeno.swf"><param name="allowfullscreen" value="true"><param name="wmode" value="window"></object></div></main>
+<script>setTimeout(function(){var l=document.getElementById("loading"),e=document.getElementById("error");if(window.RufflePlayer)l.style.display="none";else{l.style.display="none";e.style.display="block";e.textContent="Ruffle ei latautunut. Päivitä sivu."}},6000);</script>
+</body></html>
