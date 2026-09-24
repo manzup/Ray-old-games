@@ -1,0 +1,9 @@
+RAY VANHAT PELIKONEIDEN PELIT
+
+GitHub Pages -rakenne:
+index.html = päävalikko
+tuplapotti/ = Tuplapotti
+tahti/ = Tähti
+
+Lataa koko paketin sisältö raygame-repositorion juureen.
+Älä laita kansiota RAY_Vanhat_pelikoneiden_pelit itse repositoryn sisään.
